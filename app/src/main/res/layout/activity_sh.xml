@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".ShActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/action_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sh"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            tools:ignore="InefficientWeight">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penulis            : Boy Candra"
+                android:textColor="@color/fontBlack"
+                android:layout_margin="5dp"
+                android:textSize="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Penerbit          : Mediakita"
+                android:textColor="@color/fontBlack"
+                android:textSize="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Tahun Terbit : 2016"
+                android:textColor="@color/fontBlack"
+                android:textSize="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Tebal Buku    : 284 Halaman"
+                android:textColor="@color/fontBlack"
+                android:textSize="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:ignore="InefficientWeight">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Sinopsis Buku : "
+            android:textColor="@color/fontBlack"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Salah satu hal yang paling melelahkan di dunia ini saat kita ingin melepaskan sesuatu, namun ia tetap saja mengejar kita."
+            android:textColor="@color/fontBlack"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="            Seperti hujan yang jatuh ke bumi menceritakan tentang Kevin, mahasiswa jurusan fisika di universitas neggri padang. Ia adalah cowok yang tampan namun pendiam. Kevin sangat berprestasi dibidang akademik. Namun kevin tidak mempunyai kekasih, bahkan sejak kecil ia hanya mempunyai satu orang teman bernama Nara. Nara adalah satu-datunya orang yang bisa berteman dengan kevin. Nara adalah seorang mahasiswi jurusan sendratasik di UNP. Ia adalah tetangga kevin sekaligus sahabat kevin dari kecil. Satu hal buruk yang dimiliki Nara adalah ia terlalu mudah jatuh cinta dan patah hati. Terlalu cepat patah dan menerima hati yang lain. Disaat patah inilah Kevin selalu jadi penghibur bagi Nara. Namun, Nara tidak pernah tahu bahwa Kevin diam-diam memendam rasa terhadapnya."
+            android:textColor="@color/fontBlack"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

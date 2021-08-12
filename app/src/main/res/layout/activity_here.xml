@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".HereActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/action_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ha"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            tools:ignore="InefficientWeight">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penulis            : Mahir Pradana"
+                android:textColor="@color/fontBlack"
+                android:layout_margin="5dp"
+                android:textSize="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Editor               : Samira"
+                android:textColor="@color/fontBlack"
+                android:textSize="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Penerbit          : Gagas Media"
+                android:textColor="@color/fontBlack"
+                android:textSize="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Tahun Terbit : 2010"
+                android:textColor="@color/fontBlack"
+                android:textSize="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Tebal Buku    : 198 Halaman"
+                android:textColor="@color/fontBlack"
+                android:textSize="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:ignore="InefficientWeight">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Sinopsis Buku : "
+            android:textColor="@color/fontBlack"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Will Please someone call a surgeon who can crack my ribs and repair this broken heart?"
+            android:textColor="@color/fontBlack"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="SUATU SAAT, cinta itu pernah ada. Dan aku melihatnya pergi tanpa sempat kucegah sama sekali.
+
+Sejak itu, hari-hari terasa sulit untuk dijalani. Aku bahkan sulit untuk tersenyum pada bayanganku sendiri di cermin -- karena saat itu aku tahu, hanya aku sendiri yang terlihat di situ. Meskipun kedengarannya tak masuk akal, sering aku berharap bisa membalikkan waktu. Aku bahkan bersedia memberikan apa yang selama ini terpendam begitu saja di hati.
+
+Suatu saat, cinta itu pergi. Menyisakan sejuta penyesalan karena tak cukup sigap menahannya tetap berada di sini..."
+            android:textColor="@color/fontBlack"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
